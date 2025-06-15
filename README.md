@@ -1,33 +1,32 @@
 # TrustTjek 🔍🛑
 
-**TrustTjek** er en Chrome-extension, der hjælper dig med at undgå usikre webshops. Den advarer dig automatisk, hvis en webshop har dårlige Trustpilot-anmeldelser eller mange klager.
+**TrustTjek** er en Chrome-extension, der hjælper dig med at tjekke troværdigheden af webshops. Når du besøger en webshop, tilføjer udvidelsen automatisk et link til webshoppen på Trustpilot, så du hurtigt kan læse anmeldelser og vurdere, om du bør handle der.
 
-## 🚀 Funktioner
+## 🚀 Hovedfunktioner
 
-- Tjekker Trustpilot-score for webshops
-- Viser en advarsel, hvis webshoppen har en lav vurdering
-- Brugervenligt popup-vindue med Trustpilot-link
-- Automatisk aktivering ved besøg på en webshop
-- Badge-ikon og farver, som signalerer risiko
+- Finder automatisk Trustpilot-linket til den webshop, du besøger
+- Viser et ikon og en popup med direkte adgang til anmeldelser
+- Gør det nemt at tage informerede beslutninger før køb
+- Enkel og diskret integration direkte i browseren
 
 ## 🧪 Sådan tester du udvidelsen
 
 1. Download eller klon projektet:
    - Klik på **Code** → **Download ZIP** eller brug Git
-2. Pak mappen ud, hvis du har downloadet en ZIP
+2. Udpak mappen, hvis du har downloadet en ZIP
 3. Åbn Chrome og gå til `chrome://extensions/`
-4. Slå **Developer Mode** til i øverste højre hjørne
-5. Klik på **"Indlæs udpakket"** og vælg mappen `trusttjek`
-6. Besøg en webshop og se om TrustTjek reagerer
+4. Slå **Developer Mode** til (øverst til højre)
+5. Klik **"Indlæs udpakket"** og vælg mappen `trusttjek`
+6. Besøg en webshop og klik på TrustTjek-ikonet for at se Trustpilot-linket
 
-## 🛠️ Filoversigt
+## 🛠️ Projektstruktur
 
 ```bash
 trusttjek/
-├── manifest.json          # Konfiguration til Chrome
-├── content.js             # Kan bruges til DOM-manipulation
+├── manifest.json          # Chrome-konfiguration og permissions
+├── content.js             # Script der tilføjer linket
 ├── popup.html             # HTML til popup-vinduet
-├── popup.js               # Logik til popup-vinduet
+├── popup.js               # Logik til popup
 ├── popup.css              # Styling af popup
-├── icons/                 # Ikoner til udvidelsen
-├── README.md              # Denne fil :)
+├── icons/                 # Ikoner til udvidelsen (PNG)
+├── README.md              # Projektbeskrivelse (denne fil)
