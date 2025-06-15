@@ -1,5 +1,5 @@
-# TrustTjek 🔍![trusttjek_logo](https://github.com/user-attachments/assets/cc106954-70d0-4fea-99b5-5f3c58482c6a)
-
+ ![trusttjek_logo](https://github.com/user-attachments/assets/cc106954-70d0-4fea-99b5-5f3c58482c6a)
+# TrustTjek
 
 **TrustTjek** er en Chrome-extension, der hjælper dig med at tjekke troværdigheden af webshops. Når du besøger en webshop, tilføjer udvidelsen automatisk et link til webshoppen på Trustpilot, så du hurtigt kan læse anmeldelser og vurdere, om du bør handle der.
 
