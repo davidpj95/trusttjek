@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "TrustTjek",
+  "description": "Tjek Trustpilot-anmeldelser før du handler online.",
+  "version": "1.0",
+  "permissions": ["tabs", "activeTab", "scripting", "storage"],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+  "default_popup": "popup.html",
+  "default_icon": {
+    "128": "icons/trusttjek_icon.png"
+    }
+  },
+  "web_accessible_resources": [
+  {
+    "resources": ["icons/trusttjek_logo.png"],
+    "matches": ["<all_urls>"]
+  }
+]
+}
