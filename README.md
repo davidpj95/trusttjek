@@ -1,14 +1,17 @@
  ![trusttjek_logo](https://github.com/user-attachments/assets/cc106954-70d0-4fea-99b5-5f3c58482c6a)
 
+# TrustTjek 🔒🛍️
+
 **TrustTjek** er en gratis Chrome-extension, der hjælper dig med at handle sikkert online.
 
-Når du besøger en webshop, viser TrustTjek automatisk en advarselsbjælke med et link til virksomhedens Trustpilot-anmeldelser. På den måde undgår du at købe fra sider med mange dårlige erfaringer.
+Når du besøger en webshop, viser TrustTjek automatisk en advarselsbjælke med et link til virksomhedens Trustpilot-anmeldelser.  
+På den måde undgår du at købe fra sider med mange dårlige erfaringer.
 
-## 🚀 Hovedfunktioner
+## 🔧 Funktioner
 
-✅ Automatisk detektion af webshops
-✅ Advarselsbanner i toppen af siden
-✅ Hurtig adgang til Trustpilot-anmeldelser
+✅ Automatisk detektion af webshops  
+✅ Advarselsbanner i toppen af siden  
+✅ Hurtig adgang til Trustpilot-anmeldelser  
 
 Fungerer med alle webshops og understøtter både danske og internationale domæner.
 
